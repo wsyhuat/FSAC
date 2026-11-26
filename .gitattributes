@@ -1,0 +1,11 @@
+# 统一换行符，避免 Windows 检出后在 macOS/Linux 上出问题
+* text=auto
+gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# 二进制文件不要做换行转换
+*.jar binary
+*.png binary
+*.webp binary
+*.apk binary

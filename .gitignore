@@ -1,0 +1,32 @@
+# ===== 本机相关（最重要：绝不能提交，Mac 上会导致 Gradle 报错）=====
+local.properties
+*.jks
+*.keystore
+keystore.properties
+
+# ===== 构建产物 =====
+build/
+captures/
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ===== Gradle / Kotlin 缓存 =====
+.gradle/
+.kotlin/
+
+# ===== IDE =====
+.idea/
+*.iml
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== 日志/临时 =====
+*.log
+*.hprof
